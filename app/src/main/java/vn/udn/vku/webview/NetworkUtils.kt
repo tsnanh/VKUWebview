@@ -10,7 +10,6 @@ import java.io.IOException
 import java.net.HttpURLConnection
 import java.net.URL
 
-
 fun hasInternetAccess(): Boolean {
     return try {
         val urlc: HttpURLConnection = URL("http://clients3.google.com/generate_204")
